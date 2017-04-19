@@ -9,7 +9,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
 
     $_SESSION['loggedin'] = false;
     //print_r($_SESSION);
-define('URL', '/home/site/wwwroot/');
+define('URL', '/home/site/private/');
 echo (URL);
 header('Location: '.URL.'simp.php');
 
