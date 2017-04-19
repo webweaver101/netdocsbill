@@ -12,6 +12,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
 define('URL', '/home/site/private/');
 echo (URL);
 header('Location: '.URL.'simp.php');
+header('Location: simp.php');
 
    // exit;
 //include("/home/site/private/simp.php");
