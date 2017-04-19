@@ -19,10 +19,13 @@ if(empty($_POST["username"]) || empty($_POST["password"]))
     {
         $_SESSION['loggedin'] = true;
         $_SESSION['username']=$username;
+        print_r($_SESSION);
+
 
         echo("Current username is ".$_SESSION['username']);
 
-        header("location: NFS.php"); // Redirecting To another Page
+       // header("location: NFS.php"); // Redirecting To another Page
+        exit;
     }else
     {
         echo "Incorrect user or password.";
