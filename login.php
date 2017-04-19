@@ -1,5 +1,5 @@
 <?php
-//session_start(); // Starting Session
+session_start(); // Starting Session
 include("/home/site/private/connection.php");
 
 if(empty($_POST["username"]) || empty($_POST["password"]))
