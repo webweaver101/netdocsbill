@@ -29,13 +29,14 @@
 }
 .form button {
   font-family: "Roboto", sans-serif;
+  font-style:  ;
   text-transform: uppercase;
   outline: 0;
   background: #33ccff;
   width: 100%;
   border: 2px solid blue;
   border-radius: 4px;
-  padding: 15px;
+  padding: 30px;
   color: #FFFFFF;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
