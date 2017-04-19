@@ -9,8 +9,10 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
 
     $_SESSION['loggedin'] = false;
     print_r($_SESSION);
-    header('Location: simp.php');
+    header('Location: /home/site/simp.php');
     exit;
 //label
 
 ?>
+
+/home/site/private/connection.php
