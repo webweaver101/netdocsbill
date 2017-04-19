@@ -28,15 +28,16 @@
   font-size: 14px;
 }
 .form button {
-  border-top:		2px solid #a3ceda;
-  border-left:		2px solid #a3ceda;
-  border-right:		2px solid #4f6267;
-  border-bottom:		2px solid #4f6267;
-  padding:		10px 20px !important;
-  font-size:		14px !important;
-  background-color:	#c4f1fe;
-  font-weight:		bold;
-  color:			#00ff99;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .form button:hover,.form button:active,.form button:focus {
