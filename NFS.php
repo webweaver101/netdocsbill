@@ -9,7 +9,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
 
     $_SESSION['loggedin'] = false;
     //print_r($_SESSION);
-define('URL', 'https://newnetdocs.azurewebsites.net/home/site/private/');
+define('URL', 'https://newnetdocs.azurewebsites.net/home/site/wwwroot/');
 echo (URL);
 header('Location: '.URL.'simp.php');
 
