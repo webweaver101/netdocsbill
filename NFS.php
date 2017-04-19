@@ -11,7 +11,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
     //print_r($_SESSION);
 define('URL', 'https://newnetdocs/home/site/private/');
 echo (URL);
-header('Location: '.URl.'simp.php');
+header('Location: '.URL.'simp.php');
 
    // exit;
 //include("/home/site/private/simp.php");
