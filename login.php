@@ -24,7 +24,7 @@ if(empty($_POST["username"]) || empty($_POST["password"]))
 
         echo("Current username is ".$_SESSION['username']);
 
-       // header("location: NFS.php"); // Redirecting To another Page
+        header("location: NFS.php"); // Redirecting To another Page
         exit;
     }else
     {
