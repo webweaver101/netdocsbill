@@ -28,20 +28,16 @@
   font-size: 14px;
 }
 .form button {
-  font-family: "Roboto", sans-serif;
-  font-style:  ;
-  text-transform: uppercase;
-  outline: 0;
-  background: #33ccff;
-  width: 100%;
-  border: 2px solid blue;
-  border-radius: 4px;
-  padding: 30px;
-  color: #FFFFFF;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
+  border-top:		2px solid #a3ceda;
+  border-left:		2px solid #a3ceda;
+  border-right:		2px solid #4f6267;
+  border-bottom:		2px solid #4f6267;
+  padding:		10px 20px !important;
+  font-size:		14px !important;
+  background-color:	#c4f1fe;
+  font-weight:		bold;
+  color:			#2d525d;
+}
 }
 .form button:hover,.form button:active,.form button:focus {
   background: #43A047;
