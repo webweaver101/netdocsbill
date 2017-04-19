@@ -1,6 +1,6 @@
 <?php
 session_start(); // Starting Session
-include("/home/site/private/connection.php");
+include("/home/site/private/cconnection.php");
 
 if(empty($_POST["username"]) || empty($_POST["password"]))
 {
