@@ -8,7 +8,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
 }
 
     $_SESSION['loggedin'] = false;
-    print_r($_SESSION);
+    //print_r($_SESSION);
     //header('Location: /home/site/simp.php');
 
    // exit;
