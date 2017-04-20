@@ -26,6 +26,7 @@ input[type=submit] {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #147fbc;
+  color: white;
   width: 100%;
   border: 2px solid blue;
   border-radius: 8px;
