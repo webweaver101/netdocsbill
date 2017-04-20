@@ -10,7 +10,7 @@
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.loginbox input {
+.loginbox .input  {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
@@ -22,7 +22,7 @@
   box-sizing: border-box;
   font-size: 14px;
 }
-.loginbox button {
+.loginbox .button {
   background-color: green;
   border: none;
   color: white;
@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 
-.loginbox button:hover,.form button:active,.form button:focus {
+.loginbox .button:hover,.form button:active,.form button:focus {
   background: #43A047;
 }
 .loginbox .message {
@@ -43,7 +43,7 @@
   color: #b3b3b3;
   font-size: 12px;
 }
-.loginbox.message a {
+.loginbox .message a {
   color: #4CAF50;
   text-decoration: none;
 }
