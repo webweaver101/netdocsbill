@@ -22,7 +22,7 @@ input  {
   box-sizing: border-box;
   font-size: 14px;
 }
-input[name=submit] {
+input[type=submit] {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background-color: #147fbc;
