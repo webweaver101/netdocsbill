@@ -6,7 +6,8 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
     header('Location: index.html');
     exit;
 }
-$cookie_name = $username;
+
+$cookie_name = "$username";
 $cookie_value = "Any User";
 setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/home/site/wwwroot/Customers"); // 86400 = 1 day
 echo "Cookie '" . $cookie_name . "' is set!<br>";
