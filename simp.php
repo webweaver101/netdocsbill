@@ -422,7 +422,4 @@ $MAX_UPLOAD_SIZE = min(asBytes(ini_get('post_max_size')), asBytes(ini_get('uploa
 <footer>simple php filemanager by <a href="https://github.com/jcampbell1">jcampbell1</a></footer>
 </body></html>
 
-Contact GitHub API Training Shop Blog About
-
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
 
