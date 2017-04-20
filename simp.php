@@ -1,8 +1,8 @@
 <?php
 //Simple PHP File Manager
 //Copyright John Campbell (jcampbell1)
-//Liscense: MIT
-// ********************************/
+//License: MIT
+// Modified (slightly) by Bill Laing
 //Disable error report for undefined superglobals
 error_reporting( error_reporting() & ~E_NOTICE );
 //Security options
