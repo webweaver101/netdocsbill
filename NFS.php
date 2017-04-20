@@ -8,7 +8,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
 }
 
 
-setcookie($username, "chocolate", time() + (86400 * 30), "/"); // 86400 = 1 day
+setcookie(($username), "chocolate", time() + (86400 * 30), "/"); // 86400 = 1 day
 echo "Cookie '" . $cookie_name . "' is set!<br>";
 echo "Value is: " . $_COOKIE[$cookie_name];
 $_SESSION['loggedin'] = false;
