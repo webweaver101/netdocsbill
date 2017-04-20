@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-.loginbox {
+.loginbox {  /* This is the outer box*/
   position: relative;
   z-index: 1;
-  background: #019ada;
+  background: #3aa0ee;
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
