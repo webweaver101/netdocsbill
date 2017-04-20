@@ -13,7 +13,7 @@
 input  {
   font-family: "Roboto", sans-serif;
   outline: 0;
-  background: #aab8c2;
+  background: #8899aa;
   width: 100%;
   border: 2px solid blue;
   border-radius: 8px;
@@ -37,9 +37,7 @@ input  {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;;
-}
-button:hover,.form button:active,.form button:focus {
-  background: #43A047;
+
 }
 .loginbox message {
   margin: 15px 0 0;
