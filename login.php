@@ -8,9 +8,9 @@ if(empty($_POST["username"]) || empty($_POST["password"]))
 }else
 {
     $username=$_POST['username'];
-    $username=stripslashes( $username );
+    $username=addslashes()slashes( $username );
     $password=$_POST['password'];
-    $password=stripslashes( $password );
+    $password=addslashes( $password );
     $_SESSION['loggedin'] = false;
 
 
