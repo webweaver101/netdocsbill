@@ -7,9 +7,9 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
     exit;
 }
 
-$cookie_name = "$eve";
-$cookie_value = "Any User";
-setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/home/site/wwwroot/Customers"); // 86400 = 1 day
+$cookie_name = "user";
+$cookie_value = "John Doe";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 echo "Cookie '" . $cookie_name . "' is set!<br>";
 echo "Value is: " . $_COOKIE[$cookie_name];
 $_SESSION['loggedin'] = false;
