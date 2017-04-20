@@ -10,7 +10,7 @@
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.loginbox input  {
+input  {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
@@ -22,7 +22,7 @@
   box-sizing: border-box;
   font-size: 14px;
 }
-.loginbox button {
+button {
   background-color: green;
   border: none;
   color: white;
@@ -34,8 +34,7 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-
-.loginbox button:hover,.form button:active,.form button:focus {
+button:hover,.form button:active,.form button:focus {
   background: #43A047;
 }
 .loginbox message {
