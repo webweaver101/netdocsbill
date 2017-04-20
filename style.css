@@ -22,7 +22,7 @@ input  {
   box-sizing: border-box;
   font-size: 14px;
 }
-button {
+.go {
   background: #3aa0ee;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
