@@ -48,10 +48,7 @@ input[name=doh]   {
   padding: 15px;
   box-sizing: border-box;
   font-size: 20px;
-
-
 }
-
 .container {
   position: relative;
   z-index: 1;
@@ -62,11 +59,9 @@ input[name=doh]   {
   content: "";
   display: block;
   clear: both;
-}
-.container .info {
+}  .container .info {
   margin: 50px auto;
-  text-align: center;
-}
+  text-align: center;  }
 .container .info h1 {
   margin: 0 0 15px;
   padding: 0;
